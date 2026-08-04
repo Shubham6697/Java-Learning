@@ -1,0 +1,5 @@
+Hi,
+This is Shubham Gupta.
+I am a software engineer with expertise in Java and related technologies.
+I have experience in developing web applications, RESTful APIs, and working with databases.
+I am passionate about coding and continuously learning new technologies to enhance my skills.
