@@ -13,11 +13,20 @@ class MyThread extends Thread {
 
 // Main class to test MyThread
 public class ThreadExample {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // Create an instance of MyThread
         MyThread t1 = new MyThread();
 
         // Start the thread
+        t1.sleep(10000);
         t1.start(); // Output: Thread is running
+
+
+
+        Thread t2 = new Thread(()->{
+            System.out.println("Thread2 is running");
+        });
+
+        t2.start();
     }
 }

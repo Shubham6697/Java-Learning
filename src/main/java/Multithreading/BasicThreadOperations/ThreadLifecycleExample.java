@@ -21,6 +21,7 @@ public class ThreadLifecycleExample {
     public static void main(String[] args) {
         // Thread in New state
         MyLifecycleThread t1 = new MyLifecycleThread();
+        System.out.println("Thread state before start: " + t1.getState()); // Output: Thread state after start: NEW
 
         // Thread in Runnable state after calling start
         t1.start(); // Output: Thread is running

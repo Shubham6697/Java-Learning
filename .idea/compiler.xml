@@ -10,8 +10,5 @@
         <module name="hungrycoders_java" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="hungrycoder" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>
