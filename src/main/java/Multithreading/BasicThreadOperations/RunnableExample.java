@@ -17,6 +17,13 @@ public class RunnableExample {
         // Create an instance of MyRunnable
         MyRunnable runnable = new MyRunnable();
 
+
+        Thread t2 = new Thread(() -> {
+            System.out.println(Thread.currentThread().getName()+ " is running...");
+        });
+
+        t2.start();
+
         // Create a Thread object and pass the Runnable instance
         Thread t1 = new Thread(runnable);
 
